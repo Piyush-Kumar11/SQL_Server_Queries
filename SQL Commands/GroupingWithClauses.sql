@@ -1,5 +1,5 @@
 --Grouping Data
--- 1. Simple GROUP BY with COUNT
+-- 1. Simple GROUP-BY with COUNT
 -- Total number of people in each state
 SELECT State, COUNT(*) AS Total_People
 FROM Person
