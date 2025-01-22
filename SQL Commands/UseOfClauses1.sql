@@ -1,4 +1,4 @@
---SELECT Clause
+--SELECT Clause Examples
 CREATE TABLE Person (
     Id INT PRIMARY KEY IDENTITY(1,1),
     First_Name VARCHAR(20) NOT NULL,
