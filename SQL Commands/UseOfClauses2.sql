@@ -1,4 +1,5 @@
 -- Using the SELECT TOP clause
+--Examples
 
 -- 1. Fetch the youngest person (based on Age)
 SELECT TOP 1 First_Name
