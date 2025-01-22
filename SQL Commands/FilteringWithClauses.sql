@@ -1,6 +1,6 @@
 -- Filtering using Clauses
 
--- 1. DISTINCT Clause: Removes duplicate rows
+-- 1.DISTINCT Clause: Removes duplicate rows
 
 -- Fetch all unique rows from the Person table
 SELECT DISTINCT * 
