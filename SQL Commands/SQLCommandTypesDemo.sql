@@ -1,4 +1,4 @@
---DDL Commands
+--DDL Command
 use DemoDB
 
 Create table DemoPractice(
