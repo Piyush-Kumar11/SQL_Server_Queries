@@ -4,7 +4,7 @@
 INSERT INTO Student (Name, RollNo, Address, Age, DateOfBirth, Email)
 VALUES ('Karan', 2, 'Patna-Bihar', 20, '2005-02-01', 'karan@gmail.com');
 
--- Insert another student with default Gender and EnrollmentDate
+-- Insert another student with default Gender and EnrollmentDate.
 INSERT INTO Student (Name, RollNo, Address, Age, DateOfBirth, Email, Gender)
 VALUES ('Ananya', 2, 'Delhi', 22, '2003-10-15', 'ananya@gmail.com', 'F');
 
