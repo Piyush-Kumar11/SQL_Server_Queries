@@ -1,5 +1,5 @@
 -- 1. UNION - Combine results from two queries with distinct values
--- First names of people from Bihar and Karnataka (no duplicates)
+-- First names of people from Bihar & Karnataka (no duplicates)
 SELECT First_Name
 FROM Person
 WHERE State = 'Bihar'
