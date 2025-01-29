@@ -90,7 +90,7 @@ END;
 
 SELECT * FROM udfGetOrderDetails(3);
 
--- ✅ Get List of Employees Who Joined in a Specific Year
+--  Get List of Employees Who Joined in a Specific Year
 CREATE FUNCTION udfGetEmployeesByJoiningYear(@JoinYear INT)
 RETURNS @EmployeeTable TABLE (EmployeeID INT, Name VARCHAR(100), JoinDate DATE)
 AS
