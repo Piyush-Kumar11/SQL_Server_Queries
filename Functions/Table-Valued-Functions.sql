@@ -74,7 +74,7 @@ END;
 SELECT * FROM udfTotalSalaryByDepartment();
 
 --  Get Order Details for a Given Order ID
-CREATE FUNCTION udfGetOrderDetails(@OrderID INT)
+ALTER FUNCTION udfGetOrderDetails(@OrderID INT)
 RETURNS @OrderTable TABLE (ProductName VARCHAR(100), Quantity INT, Price DECIMAL(10,2))
 AS
 BEGIN
